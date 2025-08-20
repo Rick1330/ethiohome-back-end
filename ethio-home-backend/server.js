@@ -26,6 +26,7 @@ process.on('uncaughtException', (err) => {
 });
 
 const app = express();
+app.set('trust proxy', 1);
 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
