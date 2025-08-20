@@ -1,0 +1,408 @@
+{
+  "navigation": {
+    "home": "መነሻ",
+    "properties": "ንብረቶች",
+    "about": "ስለ እኛ",
+    "contact": "ያግኙን",
+    "login": "ግባ",
+    "signup": "ተመዝገብ",
+    "logout": "ውጣ",
+    "profile": "መገለጫ",
+    "dashboard": "ዳሽቦርድ",
+    "admin": "አስተዳዳሪ"
+  },
+  "auth": {
+    "login": {
+      "title": "ግባ",
+      "subtitle": "መለያዎን ለመድረስ የመግቢያ መረጃዎን ያስገቡ",
+      "email": "ኢሜይል አድራሻ",
+      "password": "የይለፍ ቃል",
+      "forgotPassword": "የይለፍ ቃል ረሳሁ?",
+      "loginButton": "ግባ",
+      "noAccount": "መለያ የለዎትም?",
+      "signupLink": "ተመዝገብ",
+      "emailPlaceholder": "john@example.com",
+      "passwordPlaceholder": "የይለፍ ቃልዎን ያስገቡ"
+    },
+    "signup": {
+      "title": "መለያ ፍጠር",
+      "subtitle": "የህልም ንብረትዎን ለማግኘት ኢትዮ-ሆም ይቀላቀሉ",
+      "fullName": "ሙሉ ስም",
+      "email": "ኢሜይል አድራሻ",
+      "phone": "ስልክ ቁጥር",
+      "password": "የይለፍ ቃል",
+      "confirmPassword": "የይለፍ ቃል አረጋግጥ",
+      "role": "እኔ",
+      "signupButton": "መለያ ፍጠር",
+      "hasAccount": "ቀደም ሲል መለያ አለዎት?",
+      "loginLink": "ግባ",
+      "fullNamePlaceholder": "ጆን ዶ",
+      "emailPlaceholder": "john@example.com",
+      "phonePlaceholder": "+2519XXXXXXXX",
+      "passwordPlaceholder": "ጠንካራ የይለፍ ቃል ይፍጠሩ",
+      "confirmPasswordPlaceholder": "የይለፍ ቃልዎን አረጋግጡ",
+      "roles": {
+        "buyer": "ገዢ",
+        "seller": "ሻጭ",
+        "agent": "ወኪል"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "በኢትዮጵያ የህልም ንብረትዎን ያግኙ",
+      "subtitle": "በእኛ የታመነ መድረክ በኢትዮጵያ ውስጥ የተረጋገጡ ንብረቶችን ያግኙ። ከዘመናዊ አፓርታማዎች እስከ የቅንጦት ቪላዎች፣ ዛሬ ፍጹም ቤትዎን ያግኙ።",
+      "searchPlaceholder": "በአካባቢ፣ የንብረት አይነት ወይም ዋጋ ይፈልጉ...",
+      "searchButton": "ንብረቶችን ፈልግ",
+      "browseButton": "ሁሉንም ንብረቶች አስሳ"
+    },
+    "stats": {
+      "properties": "የተዘረዘሩ ንብረቶች",
+      "cities": "የተሸፈኑ ከተሞች",
+      "verified": "የተረጋገጡ ንብረቶች",
+      "users": "ደስተኛ ተጠቃሚዎች"
+    },
+    "features": {
+      "title": "ለምን ኢትዮ-ሆምን መምረጥ?",
+      "subtitle": "በኢትዮጵያ ሪል እስቴት የታመነ አጋርዎ",
+      "verified": {
+        "title": "የተረጋገጡ ንብረቶች",
+        "description": "ሁሉም ንብረቶች ትክክለኛነት እና ጥራት ለማረጋገጥ በቡድናችን በደንብ ይረጋገጣሉ።"
+      },
+      "secure": {
+        "title": "ደህንነቱ የተጠበቀ ግብይት",
+        "description": "የገዢ ጥበቃ እና የኤስክሮ አገልግሎቶች ያለው ደህንነቱ የተጠበቀ የክፍያ ሂደት።"
+      },
+      "support": {
+        "title": "24/7 ድጋፍ",
+        "description": "የእኛ ቁርጠኛ የድጋፍ ቡድን እርስዎን ለመርዳት በሰዓት ዙሪያ ይገኛል።"
+      },
+      "local": {
+        "title": "የአካባቢ ባለሙያነት",
+        "description": "የኢትዮጵያ ሪል እስቴት ገበያ እና የአካባቢ ደንቦች ጥልቅ እውቀት።"
+      }
+    },
+    "cta": {
+      "title": "የህልም ንብረትዎን ለማግኘት ዝግጁ ነዎት?",
+      "subtitle": "በኢትዮ-ሆም በኩል ፍጹም ቤታቸውን ያገኙ በሺዎች የሚቆጠሩ ረክተኛ ደንበኞች ይቀላቀሉ።",
+      "getStarted": "ዛሬ ይጀምሩ",
+      "learnMore": "የበለጠ ይወቁ"
+    }
+  },
+  "properties": {
+    "title": "ንብረቶች",
+    "subtitle": "በኢትዮጵያ የተረጋገጡ ንብረቶችን ያግኙ",
+    "search": {
+      "placeholder": "በአካባቢ፣ ርዕስ ወይም መግለጫ ይፈልጉ...",
+      "advancedFilters": "የላቀ ማጣሪያዎች",
+      "filters": {
+        "priceRange": "የዋጋ ክልል",
+        "propertyType": "የንብረት አይነት",
+        "bedrooms": "መኝታ ክፍሎች",
+        "bathrooms": "መታጠቢያ ቤቶች",
+        "area": "ስፋት (ካሬ ሜትር)",
+        "location": "አካባቢ",
+        "features": "ባህሪያት",
+        "status": "ሁኔታ",
+        "sortBy": "ደርድር በ"
+      },
+      "propertyTypes": {
+        "all": "ሁሉም አይነቶች",
+        "apartment": "አፓርታማ",
+        "house": "ቤት",
+        "villa": "ቪላ",
+        "commercial": "ንግድ",
+        "land": "መሬት"
+      },
+      "statuses": {
+        "all": "ሁሉም ሁኔታ",
+        "for-sale": "ለሽያጭ",
+        "for-rent": "ለኪራይ",
+        "sold": "ተሽጧል",
+        "rented": "ተከራይቷል"
+      },
+      "sortOptions": {
+        "newest": "አዲስ ቀዳሚ",
+        "oldest": "አሮጌ ቀዳሚ",
+        "price-low": "ዋጋ: ዝቅተኛ ወደ ከፍተኛ",
+        "price-high": "ዋጋ: ከፍተኛ ወደ ዝቅተኛ",
+        "area-large": "ስፋት: ትልቅ ቀዳሚ",
+        "area-small": "ስፋት: ትንሽ ቀዳሚ"
+      }
+    },
+    "card": {
+      "verified": "የተረጋገጠ",
+      "featured": "የተመረጠ",
+      "new": "አዲስ",
+      "bedrooms": "መኝታ",
+      "bathrooms": "መታጠቢያ",
+      "area": "ካሬ ሜትር",
+      "viewDetails": "ዝርዝር ይመልከቱ",
+      "contactOwner": "ባለቤትን ያግኙ",
+      "addToFavorites": "ወደ ተወዳጆች ጨምር",
+      "removeFromFavorites": "ከተወዳጆች አስወግድ",
+      "share": "አጋራ"
+    },
+    "noResults": {
+      "title": "ንብረቶች አልተገኙም",
+      "subtitle": "የፍለጋ መስፈርቶችዎን ማስተካከል ወይም ሁሉንም ንብረቶች ማሰስ ይሞክሩ።",
+      "browseAll": "ሁሉንም ንብረቶች አስሳ",
+      "clearFilters": "ማጣሪያዎችን አጽዳ"
+    },
+    "loadMore": "ተጨማሪ ንብረቶች ጫን",
+    "loading": "ንብረቶች በመጫን ላይ...",
+    "error": "ንብረቶችን መጫን አልተሳካም"
+  },
+  "propertyDetail": {
+    "backToProperties": "ወደ ንብረቶች ተመለስ",
+    "overview": "አጠቃላይ እይታ",
+    "features": "ባህሪያት",
+    "location": "አካባቢ",
+    "reviews": "ግምገማዎች",
+    "contact": "ያግኙ",
+    "share": "ንብረት አጋራ",
+    "addToFavorites": "ወደ ተወዳጆች ጨምር",
+    "removeFromFavorites": "ከተወዳጆች አስወግድ",
+    "expressInterest": "ፍላጎት ግለጽ",
+    "writeReview": "ግምገማ ጻፍ",
+    "viewAllReviews": "ሁሉንም ግምገማዎች ይመልከቱ",
+    "propertyFeatures": {
+      "bedrooms": "መኝታ ክፍሎች",
+      "bathrooms": "መታጠቢያ ቤቶች",
+      "area": "ስፋት",
+      "parking": "የመኪና ማቆሚያ",
+      "garden": "የአትክልት ቦታ",
+      "balcony": "ባልኮኒ",
+      "furnished": "የተዘጋጀ",
+      "petFriendly": "የቤት እንስሳት ወዳጅ"
+    },
+    "ownerInfo": {
+      "title": "የንብረት ባለቤት",
+      "verified": "የተረጋገጠ ባለቤት",
+      "joinedDate": "የተቀላቀለበት",
+      "properties": "ንብረቶች",
+      "rating": "ደረጃ"
+    }
+  },
+  "interest": {
+    "title": "ፍላጎትዎን ግለጹ",
+    "subtitle": "ከንብረት ባለቤት ጋር ለመገናኘት ይህንን ቅጽ ይሙሉ",
+    "personalInfo": "የግል መረጃ",
+    "contactPreferences": "የመገናኛ ምርጫዎች",
+    "fullName": "ሙሉ ስም",
+    "email": "ኢሜይል አድራሻ",
+    "phone": "ስልክ ቁጥር",
+    "interestedIn": "እኔ ፍላጎት አለኝ በ",
+    "budget": "በጀት (አማራጭ)",
+    "preferredContactTime": "የተመረጠ የመገናኛ ጊዜ",
+    "preferredContactMethod": "የተመረጠ የመገናኛ ዘዴ",
+    "message": "መልእክት",
+    "agreeToTerms": "የአገልግሎት ውሎች እና የግላዊነት ፖሊሲ እስማማለሁ",
+    "subscribeToUpdates": "ስለ ተመሳሳይ ንብረቶች እና የገበያ ግንዛቤዎች ዝማኔዎች ይመዝገቡ",
+    "submitInterest": "ፍላጎት አስገባ",
+    "submitting": "በማስገባት ላይ...",
+    "success": {
+      "title": "ፍላጎት በተሳካ ሁኔታ ተገብቷል!",
+      "subtitle": "በዚህ ንብረት ላይ ላለዎት ፍላጎት እናመሰግናለን። ባለቤቱ በቅርቡ ያገኝዎታል።",
+      "nextSteps": "ቀጥሎ ምን ይከሰታል?",
+      "steps": [
+        "የንብረት ባለቤቱ ጥያቄዎን ይቀበላል",
+        "በ24 ሰዓት ውስጥ ያገኝዎታል",
+        "ፍላጎት ካለ መመልከት ሊመደብ ይችላል",
+        "ስለዚህ ንብረት ዝማኔዎችን ይቀበላሉ"
+      ]
+    },
+    "interestedInOptions": {
+      "buying": "ይህንን ንብረት መግዛት",
+      "renting": "ይህንን ንብረት መከራየት",
+      "viewing": "መመልከት መርሐግብር",
+      "information": "ተጨማሪ መረጃ ማግኘት"
+    },
+    "contactTimes": {
+      "morning": "ጠዋት (8AM - 12PM)",
+      "afternoon": "ከሰዓት በኋላ (12PM - 6PM)",
+      "evening": "ማታ (6PM - 9PM)",
+      "anytime": "በማንኛውም ጊዜ"
+    },
+    "contactMethods": {
+      "phone": "ስልክ ጥሪ",
+      "email": "ኢሜይል",
+      "whatsapp": "ዋትስአፕ"
+    }
+  },
+  "reviews": {
+    "title": "ግምገማዎች",
+    "writeReview": "ግምገማ ጻፍ",
+    "overallRating": "አጠቃላይ ደረጃ",
+    "reviewTitle": "የግምገማ ርዕስ",
+    "reviewerName": "ስምዎ",
+    "yourReview": "ግምገማዎ",
+    "wouldRecommend": "ይህንን ንብረት ይመክራሉ?",
+    "visitedProperty": "ይህንን ንብረት በግል ጎብኝተዋል?",
+    "submitReview": "ግምገማ አስገባ",
+    "submittingReview": "ግምገማ በማስገባት ላይ...",
+    "helpful": "ጠቃሚ",
+    "notHelpful": "ጠቃሚ አይደለም",
+    "report": "ሪፖርት",
+    "ownerResponse": "የንብረት ባለቤት ምላሽ",
+    "verified": "የተረጋገጠ ግምገማ",
+    "recommended": "ይመክራል",
+    "doesntRecommend": "አይመክርም",
+    "visitedPropertyBadge": "ንብረት ጎብኝቷል",
+    "noReviews": {
+      "title": "ገና ግምገማዎች የሉም",
+      "subtitle": "ይህንን ንብረት የመጀመሪያ ግምገማ ሰጪ ይሁኑ እና ሌሎች ተጠቃሚዎች ውሳኔ እንዲወስኑ ይርዱ።"
+    },
+    "success": {
+      "title": "ግምገማ በተሳካ ሁኔታ ተገብቷል!",
+      "subtitle": "ለግምገማዎ እናመሰግናለን። ሌሎች ተጠቃሚዎች ውሳኔ እንዲወስኑ ይረዳል።",
+      "nextSteps": "ቀጥሎ ምን ይከሰታል?",
+      "steps": [
+        "ግምገማዎ በ24 ሰዓት ውስጥ ይመረመራል",
+        "ከተፈቀደ በኋላ ለሌሎች ተጠቃሚዎች ይታያል",
+        "የኢሜይል ማረጋገጫ ይቀበላሉ",
+        "የንብረት ባለቤቱ ለግምገማዎ ምላሽ ሊሰጥ ይችላል"
+      ]
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "የአስተዳዳሪ ዳሽቦርድ",
+      "subtitle": "መድረክዎን ይቆጣጠሩ እና ያስተዳድሩ",
+      "stats": {
+        "totalUsers": "ጠቅላላ ተጠቃሚዎች",
+        "totalProperties": "ጠቅላላ ንብረቶች",
+        "totalInterests": "ጠቅላላ ፍላጎቶች",
+        "revenue": "ገቢ",
+        "pendingVerifications": "ማረጋገጫ በመጠባበቅ ላይ",
+        "flaggedReviews": "ግምገማዎች ቁጥጥር ያስፈልጋቸዋል",
+        "newUsersThisMonth": "በዚህ ወር"
+      },
+      "charts": {
+        "userGrowth": "የተጠቃሚ እና ንብረት እድገት",
+        "propertyTypes": "የንብረት አይነቶች ስርጭት"
+      },
+      "actionItems": {
+        "title": "የድርጊት ንጥሎች",
+        "pendingVerifications": "በመጠባበቅ ላይ ያሉ ማረጋገጫዎች",
+        "flaggedReviews": "የተሰየሙ ግምገማዎች",
+        "userReports": "የተጠቃሚ ሪፖርቶች"
+      },
+      "recentActivity": {
+        "title": "የቅርብ ጊዜ እንቅስቃሴ",
+        "viewAll": "ሁሉንም እንቅስቃሴ ይመልከቱ"
+      },
+      "quickActions": {
+        "title": "ፈጣን እርምጃዎች",
+        "manageUsers": "ተጠቃሚዎችን አስተዳድር",
+        "verifyProperties": "ንብረቶችን አረጋግጥ",
+        "moderateReviews": "ግምገማዎችን ቆጣጠር",
+        "viewAnalytics": "ትንታኔዎችን ይመልከቱ"
+      }
+    },
+    "users": {
+      "title": "የተጠቃሚ አስተዳደር",
+      "subtitle": "የመድረክ ተጠቃሚዎችን እና ፈቃዶቻቸውን ያስተዳድሩ",
+      "addUser": "ተጠቃሚ ጨምር",
+      "searchPlaceholder": "ተጠቃሚዎችን በስም ወይም ኢሜይል ይፈልጉ...",
+      "filters": {
+        "allRoles": "ሁሉም ሚናዎች",
+        "allStatus": "ሁሉም ሁኔታ",
+        "active": "ንቁ",
+        "suspended": "ታግዷል",
+        "pending": "በመጠባበቅ ላይ"
+      },
+      "roles": {
+        "admin": "አስተዳዳሪ",
+        "employee": "ሰራተኛ",
+        "agent": "ወኪል",
+        "seller": "ሻጭ",
+        "buyer": "ገዢ"
+      },
+      "actions": {
+        "view": "ይመልከቱ",
+        "edit": "አርትዕ",
+        "suspend": "አግድ",
+        "activate": "አንቃ",
+        "sendMessage": "መልእክት ላክ"
+      },
+      "userDetail": {
+        "title": "የተጠቃሚ ዝርዝሮች",
+        "contactInfo": "የመገናኛ መረጃ",
+        "activitySummary": "የእንቅስቃሴ ማጠቃለያ",
+        "propertiesOwned": "የተያዙ ንብረቶች",
+        "interestsSubmitted": "የተገቡ ፍላጎቶች",
+        "reviewsWritten": "የተጻፉ ግምገማዎች"
+      }
+    },
+    "properties": {
+      "title": "የንብረት ማረጋገጫ",
+      "subtitle": "የንብረት ዝርዝሮችን ይገምግሙ እና ያረጋግጡ",
+      "stats": {
+        "pending": "በመጠባበቅ ላይ",
+        "verified": "የተረጋገጠ",
+        "rejected": "ተቀባይነት አላገኘም",
+        "total": "ጠቅላላ"
+      },
+      "searchPlaceholder": "ንብረቶችን በርዕስ ወይም አካባቢ ይፈልጉ...",
+      "actions": {
+        "review": "ግምገማ",
+        "approve": "ፈቅድ",
+        "reject": "ውድቅ አድርግ"
+      },
+      "verification": {
+        "approveTitle": "ንብረት ፈቅድ",
+        "rejectTitle": "ንብረት ውድቅ አድርግ",
+        "approveMessage": "ይህንን ንብረት ማፍቀድ እርግጠኛ ነዎት? ለሁሉም ተጠቃሚዎች ይታያል።",
+        "rejectMessage": "ይህንን ንብረት ለመውደቅ ምክንያት ይስጡ። ባለቤቱ ይጠቃለላል።",
+        "approvalNotes": "የፈቃድ ማስታወሻዎች (አማራጭ)",
+        "rejectionReason": "የውድቅ ምክንያት",
+        "cancel": "ሰርዝ",
+        "approve": "ፈቅድ",
+        "reject": "ውድቅ አድርግ"
+      }
+    }
+  },
+  "common": {
+    "loading": "በመጫን ላይ...",
+    "error": "ስህተት",
+    "success": "ተሳክቷል",
+    "cancel": "ሰርዝ",
+    "save": "አስቀምጥ",
+    "delete": "ሰርዝ",
+    "edit": "አርትዕ",
+    "view": "ይመልከቱ",
+    "close": "ዝጋ",
+    "back": "ተመለስ",
+    "next": "ቀጣይ",
+    "previous": "ቀዳሚ",
+    "search": "ፈልግ",
+    "filter": "አጣራ",
+    "sort": "ደርድር",
+    "export": "ወደ ውጭ ላክ",
+    "import": "ከውጭ አምጣ",
+    "refresh": "አድስ",
+    "tryAgain": "እንደገና ሞክር",
+    "noData": "መረጃ የለም",
+    "comingSoon": "በቅርቡ",
+    "yes": "አዎ",
+    "no": "አይ",
+    "ok": "እሺ",
+    "currency": "ብር",
+    "perMonth": "/ወር",
+    "required": "ያስፈልጋል",
+    "optional": "አማራጭ"
+  },
+  "validation": {
+    "required": "ይህ መስክ ያስፈልጋል",
+    "email": "ትክክለኛ ኢሜይል አድራሻ ያስገቡ",
+    "phone": "ትክክለኛ ስልክ ቁጥር ያስገቡ",
+    "password": "የይለፍ ቃል ቢያንስ 8 ቁምፊዎች መሆን አለበት",
+    "confirmPassword": "የይለፍ ቃሎች አይዛመዱም",
+    "minLength": "ቢያንስ {{min}} ቁምፊዎች መሆን አለበት",
+    "maxLength": "ከ{{max}} ቁምፊዎች በላይ መሆን የለበትም",
+    "min": "ቢያንስ {{min}} መሆን አለበት",
+    "max": "ከ{{max}} በላይ መሆን የለበትም"
+  }
+}
+

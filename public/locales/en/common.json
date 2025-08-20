@@ -1,0 +1,408 @@
+{
+  "navigation": {
+    "home": "Home",
+    "properties": "Properties",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "signup": "Signup",
+    "logout": "Logout",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "admin": "Admin"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "subtitle": "Enter your credentials to access your account",
+      "email": "Email Address",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "loginButton": "Login",
+      "noAccount": "Don't have an account?",
+      "signupLink": "Signup",
+      "emailPlaceholder": "john@example.com",
+      "passwordPlaceholder": "Enter your password"
+    },
+    "signup": {
+      "title": "Create Account",
+      "subtitle": "Join Ethio-Home to find your dream property",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "role": "I am a",
+      "signupButton": "Create Account",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Login",
+      "fullNamePlaceholder": "John Doe",
+      "emailPlaceholder": "john@example.com",
+      "phonePlaceholder": "+2519XXXXXXXX",
+      "passwordPlaceholder": "Create a strong password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "roles": {
+        "buyer": "Buyer",
+        "seller": "Seller",
+        "agent": "Agent"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Find Your Dream Property in Ethiopia",
+      "subtitle": "Discover verified properties across Ethiopia with our trusted platform. From modern apartments to luxury villas, find your perfect home today.",
+      "searchPlaceholder": "Search by location, property type, or price...",
+      "searchButton": "Search Properties",
+      "browseButton": "Browse All Properties"
+    },
+    "stats": {
+      "properties": "Properties Listed",
+      "cities": "Cities Covered",
+      "verified": "Verified Properties",
+      "users": "Happy Users"
+    },
+    "features": {
+      "title": "Why Choose Ethio-Home?",
+      "subtitle": "Your trusted partner in Ethiopian real estate",
+      "verified": {
+        "title": "Verified Properties",
+        "description": "All properties are thoroughly verified by our team to ensure authenticity and quality."
+      },
+      "secure": {
+        "title": "Secure Transactions",
+        "description": "Safe and secure payment processing with buyer protection and escrow services."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Our dedicated support team is available around the clock to assist you."
+      },
+      "local": {
+        "title": "Local Expertise",
+        "description": "Deep knowledge of Ethiopian real estate market and local regulations."
+      }
+    },
+    "cta": {
+      "title": "Ready to Find Your Dream Property?",
+      "subtitle": "Join thousands of satisfied customers who found their perfect home through Ethio-Home.",
+      "getStarted": "Get Started Today",
+      "learnMore": "Learn More"
+    }
+  },
+  "properties": {
+    "title": "Properties",
+    "subtitle": "Discover verified properties across Ethiopia",
+    "search": {
+      "placeholder": "Search by location, title, or description...",
+      "advancedFilters": "Advanced Filters",
+      "filters": {
+        "priceRange": "Price Range",
+        "propertyType": "Property Type",
+        "bedrooms": "Bedrooms",
+        "bathrooms": "Bathrooms",
+        "area": "Area (m²)",
+        "location": "Location",
+        "features": "Features",
+        "status": "Status",
+        "sortBy": "Sort By"
+      },
+      "propertyTypes": {
+        "all": "All Types",
+        "apartment": "Apartment",
+        "house": "House",
+        "villa": "Villa",
+        "commercial": "Commercial",
+        "land": "Land"
+      },
+      "statuses": {
+        "all": "All Status",
+        "for-sale": "For Sale",
+        "for-rent": "For Rent",
+        "sold": "Sold",
+        "rented": "Rented"
+      },
+      "sortOptions": {
+        "newest": "Newest First",
+        "oldest": "Oldest First",
+        "price-low": "Price: Low to High",
+        "price-high": "Price: High to Low",
+        "area-large": "Area: Largest First",
+        "area-small": "Area: Smallest First"
+      }
+    },
+    "card": {
+      "verified": "Verified",
+      "featured": "Featured",
+      "new": "New",
+      "bedrooms": "bed",
+      "bathrooms": "bath",
+      "area": "m²",
+      "viewDetails": "View Details",
+      "contactOwner": "Contact Owner",
+      "addToFavorites": "Add to Favorites",
+      "removeFromFavorites": "Remove from Favorites",
+      "share": "Share"
+    },
+    "noResults": {
+      "title": "No Properties Found",
+      "subtitle": "Try adjusting your search criteria or browse all properties.",
+      "browseAll": "Browse All Properties",
+      "clearFilters": "Clear Filters"
+    },
+    "loadMore": "Load More Properties",
+    "loading": "Loading Properties...",
+    "error": "Failed to Load Properties"
+  },
+  "propertyDetail": {
+    "backToProperties": "Back to Properties",
+    "overview": "Overview",
+    "features": "Features",
+    "location": "Location",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "share": "Share Property",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "expressInterest": "Express Interest",
+    "writeReview": "Write Review",
+    "viewAllReviews": "View All Reviews",
+    "propertyFeatures": {
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "area": "Area",
+      "parking": "Parking",
+      "garden": "Garden",
+      "balcony": "Balcony",
+      "furnished": "Furnished",
+      "petFriendly": "Pet Friendly"
+    },
+    "ownerInfo": {
+      "title": "Property Owner",
+      "verified": "Verified Owner",
+      "joinedDate": "Joined",
+      "properties": "Properties",
+      "rating": "Rating"
+    }
+  },
+  "interest": {
+    "title": "Express Your Interest",
+    "subtitle": "Fill out this form to get in touch with the property owner",
+    "personalInfo": "Personal Information",
+    "contactPreferences": "Contact Preferences",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "interestedIn": "I'm interested in",
+    "budget": "Budget (Optional)",
+    "preferredContactTime": "Preferred Contact Time",
+    "preferredContactMethod": "Preferred Contact Method",
+    "message": "Message",
+    "agreeToTerms": "I agree to the Terms of Service and Privacy Policy",
+    "subscribeToUpdates": "Subscribe to updates about similar properties and market insights",
+    "submitInterest": "Submit Interest",
+    "submitting": "Submitting...",
+    "success": {
+      "title": "Interest Submitted Successfully!",
+      "subtitle": "Thank you for your interest in this property. The owner will contact you soon.",
+      "nextSteps": "What happens next?",
+      "steps": [
+        "The property owner will receive your inquiry",
+        "You'll be contacted within 24 hours",
+        "A viewing can be scheduled if interested",
+        "You'll receive updates about this property"
+      ]
+    },
+    "interestedInOptions": {
+      "buying": "Buying this property",
+      "renting": "Renting this property",
+      "viewing": "Scheduling a viewing",
+      "information": "Getting more information"
+    },
+    "contactTimes": {
+      "morning": "Morning (8AM - 12PM)",
+      "afternoon": "Afternoon (12PM - 6PM)",
+      "evening": "Evening (6PM - 9PM)",
+      "anytime": "Anytime"
+    },
+    "contactMethods": {
+      "phone": "Phone Call",
+      "email": "Email",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "reviews": {
+    "title": "Reviews",
+    "writeReview": "Write a Review",
+    "overallRating": "Overall Rating",
+    "reviewTitle": "Review Title",
+    "reviewerName": "Your Name",
+    "yourReview": "Your Review",
+    "wouldRecommend": "Would you recommend this property?",
+    "visitedProperty": "Did you visit this property in person?",
+    "submitReview": "Submit Review",
+    "submittingReview": "Submitting Review...",
+    "helpful": "Helpful",
+    "notHelpful": "Not Helpful",
+    "report": "Report",
+    "ownerResponse": "Property Owner Response",
+    "verified": "Verified Review",
+    "recommended": "Recommends",
+    "doesntRecommend": "Doesn't Recommend",
+    "visitedPropertyBadge": "Visited Property",
+    "noReviews": {
+      "title": "No Reviews Yet",
+      "subtitle": "Be the first to review this property and help other users make informed decisions."
+    },
+    "success": {
+      "title": "Review Submitted Successfully!",
+      "subtitle": "Thank you for your review. It will help other users make informed decisions.",
+      "nextSteps": "What happens next?",
+      "steps": [
+        "Your review will be moderated within 24 hours",
+        "Once approved, it will be visible to other users",
+        "You'll receive an email confirmation",
+        "The property owner may respond to your review"
+      ]
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "subtitle": "Monitor and manage your platform",
+      "stats": {
+        "totalUsers": "Total Users",
+        "totalProperties": "Total Properties",
+        "totalInterests": "Total Interests",
+        "revenue": "Revenue",
+        "pendingVerifications": "pending verification",
+        "flaggedReviews": "reviews need moderation",
+        "newUsersThisMonth": "this month"
+      },
+      "charts": {
+        "userGrowth": "User & Property Growth",
+        "propertyTypes": "Property Types Distribution"
+      },
+      "actionItems": {
+        "title": "Action Items",
+        "pendingVerifications": "Pending Verifications",
+        "flaggedReviews": "Flagged Reviews",
+        "userReports": "User Reports"
+      },
+      "recentActivity": {
+        "title": "Recent Activity",
+        "viewAll": "View All Activity"
+      },
+      "quickActions": {
+        "title": "Quick Actions",
+        "manageUsers": "Manage Users",
+        "verifyProperties": "Verify Properties",
+        "moderateReviews": "Moderate Reviews",
+        "viewAnalytics": "View Analytics"
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "subtitle": "Manage platform users and their permissions",
+      "addUser": "Add User",
+      "searchPlaceholder": "Search users by name or email...",
+      "filters": {
+        "allRoles": "All Roles",
+        "allStatus": "All Status",
+        "active": "Active",
+        "suspended": "Suspended",
+        "pending": "Pending"
+      },
+      "roles": {
+        "admin": "Admin",
+        "employee": "Employee",
+        "agent": "Agent",
+        "seller": "Seller",
+        "buyer": "Buyer"
+      },
+      "actions": {
+        "view": "View",
+        "edit": "Edit",
+        "suspend": "Suspend",
+        "activate": "Activate",
+        "sendMessage": "Send Message"
+      },
+      "userDetail": {
+        "title": "User Details",
+        "contactInfo": "Contact Information",
+        "activitySummary": "Activity Summary",
+        "propertiesOwned": "Properties Owned",
+        "interestsSubmitted": "Interests Submitted",
+        "reviewsWritten": "Reviews Written"
+      }
+    },
+    "properties": {
+      "title": "Property Verification",
+      "subtitle": "Review and verify property listings",
+      "stats": {
+        "pending": "Pending",
+        "verified": "Verified",
+        "rejected": "Rejected",
+        "total": "Total"
+      },
+      "searchPlaceholder": "Search properties by title or location...",
+      "actions": {
+        "review": "Review",
+        "approve": "Approve",
+        "reject": "Reject"
+      },
+      "verification": {
+        "approveTitle": "Approve Property",
+        "rejectTitle": "Reject Property",
+        "approveMessage": "Are you sure you want to approve this property? It will be visible to all users.",
+        "rejectMessage": "Please provide a reason for rejecting this property. The owner will be notified.",
+        "approvalNotes": "Approval Notes (Optional)",
+        "rejectionReason": "Rejection Reason",
+        "cancel": "Cancel",
+        "approve": "Approve",
+        "reject": "Reject"
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "refresh": "Refresh",
+    "tryAgain": "Try Again",
+    "noData": "No data available",
+    "comingSoon": "Coming Soon",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "currency": "ETB",
+    "perMonth": "/month",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "phone": "Please enter a valid phone number",
+    "password": "Password must be at least 8 characters",
+    "confirmPassword": "Passwords do not match",
+    "minLength": "Must be at least {{min}} characters",
+    "maxLength": "Must be no more than {{max}} characters",
+    "min": "Must be at least {{min}}",
+    "max": "Must be no more than {{max}}"
+  }
+}
+
