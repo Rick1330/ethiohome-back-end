@@ -12,7 +12,8 @@ export const PropertyCreatePage: React.FC = () => {
   const { user } = useAuth();
   const [isLoading, setIsLoading] = React.useState(false);
 
-  const handleSubmit = async (data: any) => {
+  // Updated handleSubmit to accept FormData
+  const handleSubmit = async (formData: FormData) => {
     if (!user) {
       toast.error('You must be logged in to create a property');
       return;
@@ -20,43 +21,40 @@ export const PropertyCreatePage: React.FC = () => {
 
     setIsLoading(true);
     try {
-      const propertyData = {
-        ...data,
-        owner: user.id,
-        agent: user.role === 'agent' ? user.id : undefined,
-        seller: user.role === 'seller' ? user.id : undefined,
-        status: 'pending_approval', // Properties need admin approval
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString()
-      };
+      // The FormData is already constructed in PropertyForm.
+      // We can append any additional fields here if necessary.
+      // For example, the backend might expect the owner ID, which we can get from the auth context.
+      // Note: The PropertyForm is already designed to get owner from the context in a real app,
+      // but for this flow, we ensure it's here.
+      // The backend's createOne factory will set this from req.user, so we don't need to append it here.
 
-      await propertyService.createProperty(propertyData);
+      await propertyService.createProperty(formData);
       toast.success('Property created successfully! It will be reviewed by our team.');
       navigate('/dashboard');
     } catch (error: any) {
       console.error('Error creating property:', error);
-      toast.error(error.message || 'Failed to create property. Please try again.');
+      toast.error(error.response?.data?.message || 'Failed to create property. Please try again.');
     } finally {
       setIsLoading(false);
     }
   };
 
   const handleCancel = () => {
-    navigate(-1);
+    navigate(-1); // Go back to the previous page
   };
 
-  // Check if user has permission to create properties
-  if (!user || !['seller', 'agent', 'admin'].includes(user.role)) {
+  // Permission check
+  if (!user || !['seller', 'agent', 'admin', 'employee'].includes(user.role)) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
+        <div className="text-center p-8">
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Access Denied</h1>
           <p className="text-gray-600 mb-4">
-            You need to be a seller or agent to create properties.
+            You do not have permission to create properties.
           </p>
           <button
             onClick={() => navigate('/')}
-            className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700"
+            className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90"
           >
             Go Home
           </button>
@@ -68,13 +66,6 @@ export const PropertyCreatePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900">Create New Property</h1>
-          <p className="mt-2 text-gray-600">
-            List your property on Ethio-Home and reach thousands of potential buyers and renters.
-          </p>
-        </div>
-
         <PropertyForm
           onSubmit={handleSubmit}
           onCancel={handleCancel}
@@ -84,4 +75,3 @@ export const PropertyCreatePage: React.FC = () => {
     </div>
   );
 };
-

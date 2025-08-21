@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Email Verification - Ethio Home
+    style.
+      body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f4f4f9; }
+      .container { text-align: center; padding: 40px; border-radius: 8px; background-color: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+      h1 { color: #333; }
+      p { color: #666; font-size: 1.2rem; }
+      .success { color: #28a745; }
+      .error { color: #dc3545; }
+  body
+    .container
+      h1 Ethio Home
+      p#status Verifying your email address... Please wait.
+
+    script.
+      document.addEventListener('DOMContentLoaded', async () => {
+        const statusEl = document.getElementById('status');
+        const userId = window.location.pathname.split('/').pop();
+        const frontendUrl = !{JSON.stringify(frontendUrl)} || 'http://localhost:5173';
+
+        try {
+          const response = await fetch(`/api/v1/users/verifyEmail/${userId}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' }
+          });
+
+          const data = await response.json();
+
+          if (response.ok) {
+            statusEl.textContent = 'Email verified successfully! You will be redirected shortly.';
+            statusEl.className = 'success';
+            setTimeout(() => {
+              window.location.href = `${frontendUrl}/login?verified=true`;
+            }, 3000);
+          } else {
+            throw new Error(data.message || 'Verification failed. The link may have expired or already been used.');
+          }
+        } catch (error) {
+          statusEl.textContent = error.message;
+          statusEl.className = 'error';
+        }
+      });
